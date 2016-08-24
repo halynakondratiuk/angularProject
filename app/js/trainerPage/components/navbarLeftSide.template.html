@@ -1,0 +1,93 @@
+<div class="side-menu" id="side-menu">
+    <section>
+        <div class="container-fluid divfluid">
+            <!-- Menu Section title -->
+            <h4 class="h4style">SoftServe HRMS</h4>
+            <!-- Lable for #showmenu to hide the menu/uncheck the checkbox -->
+            <label class="toggler toggle-menu" onclick="myFunction()"><span class="glyphicon glyphicon-align-justify"></span></label>
+            <!--<label class="toggle toggle-menu"><i class="glyphicon glyphicon-align-justify"></i></label>-->
+        </div>
+
+        <!--Search input-->
+        <div class="row rowmargin">
+            <div id="inputwidth" class="input-group">
+                <input type="text" class="form-control input-search" placeholder="Search...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-navbar" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                        <button class="btn btn-navbar buttoncolor no-button-padding" type="button"><i class="glyphicon glyphicon-bell"></i></button>
+                        <button class="btn btn-navbar buttoncolor no-button-padding" type="button"><i class="glyphicon glyphicon-comment"></i></button>
+                    </span>
+            </div>
+        </div>
+
+        <!--Trainer info-->
+        <div class="input-group rowmargin inputgroupstyle">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 trainer-photo">
+                <img src="http://www.zoopicture.ru/assets/2009/02/panda1.jpg" class="img-circle img-responsive" role="img" alt="trainer photo">
+            </div>
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <h4 class="divh4float">Naffsdfsfsme</h4><img src="http://publikserver.de/images/stories/allesgruen.png" class="styleimg">
+                <h5 class="divh5clear">Job possition</h5>
+            </div>
+                <span class="input-group-btn">
+                    <button type="button" class="btn spoiler collapsed buttonstyle" data-toggle="collapse" data-target="#user-description"></button>
+                </span>
+        </div>
+        <div class="collapse divpstyle divh5clear" id="user-description">
+            <p>ddffdf</p>
+        </div>
+
+        <div class="input-group not-dropdown-el inputmargin inputgroupstyle ahover">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h5><a href="#">News</a></h5>
+            </div>
+        </div>
+
+        <div class="input-group dropdown-el inputgroupstyle ahover">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h5><a href="#learning-description" data-toggle="collapse" class="no-decoration">Learning</a></h5>
+            </div>
+                <span class="input-group-btn left-nav-btn ">
+                    <a class="btn spoiler collapsed left-nav-btn" data-toggle="collapse" href="#learning-description"></a>
+                </span>
+        </div>
+        <div class="collapse divulstyle treestyle" id="learning-description">
+            <ul class="tree">
+                <li><a href="#">Training catalog</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">My learning</a></li>
+            </ul>
+        </div>
+
+        <div class="input-group not-dropdown-el inputgroupstyle ahover">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h5><a href="#">Community</a></h5>
+            </div>
+        </div>
+
+        <div class="input-group not-dropdown-el inputgroupstyle ahover">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h5><a href="#">Company</a></h5>
+            </div>
+        </div>
+
+
+        <div class="input-group dropdown-el inputgroupstyle ahover">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h5><a href="#" data-toggle="collapse" class="no-decoration">Administration</a></h5>
+            </div>
+                <span class="input-group-btn left-nav-btn">
+                    <a class="btn spoiler collapsed left-nav-btn buttonone" data-toggle="collapse" href="#administration-description"></a>
+                </span>
+        </div>
+        <div class="collapse divulstyle" id="administration-description">
+            <p>some text</p>
+        </div>
+        <div id="footer">
+            <label>
+                <span class="glyphicon glyphicon-off"></span>
+                Logout
+            </label>
+        </div>
+    </section>
+</div>
